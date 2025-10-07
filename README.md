@@ -1,54 +1,86 @@
-# Sales Insights Dashboard
+# 💼 Sales Insights Data Analytics Project 
 
-## Overview
-This repository contains my personal project, the Sales Insights Dashboard, a Power BI-based solution developed to analyze sales trends for AtliQ Hardware goods. Undertaken as part of my self-learning in business intelligence, this project demonstrates my ability to create data-driven tools that support revenue growth. The dashboard was designed to provide actionable insights, reflecting my dedication to applying analytics in a practical business context.
+## 📌 Project Overview  
+This project focuses on analyzing sales performance using **SQL and Power BI**.  
+It demonstrates how raw transactional data can be cleaned, processed, and visualized to uncover insights into **revenue trends, customer performance, and market contributions** across India.  
 
-## Project Objectives
-The main goals of this project included:
-- Analyzing sales data to understand trends and performance metrics for AtliQ Hardware.
-- Developing a dashboard to increase revenue by at least 7% in the next quarter through informed decisions.
-- Strengthening my skills in data visualization and SQL query optimization.
-- Offering a scalable tool for sales teams to monitor and enhance business performance.
+The main objective was to build a scalable data pipeline using **MySQL for data analysis** and **Power BI for visualization**, helping businesses track performance metrics and identify top markets, customers, and products driving sales.  
 
-## Technical Details
-The project utilized the following technologies and tools:
-- **Power BI**: Used for designing interactive dashboards and visualizing sales data.
-- **SQL**: Applied to query and preprocess the dataset for accurate analysis.
-- **Data Sources**: A mock dataset representing AtliQ Hardware sales, including product details and revenue figures.
-- **Methodologies**: Employed data modeling, trend analysis, and KPI tracking to ensure reliable insights.
+---
 
-## Implementation
-The development process consisted of the following steps:
-1. **Data Collection**: Compiled a sample dataset with sales data for AtliQ Hardware products.
-2. **Data Processing**: Used SQL to clean and structure the data, removing outliers and inconsistencies.
-3. **Dashboard Development**: Built visuals like line charts and tables in Power BI to display sales trends and revenue growth.
-4. **Insight Delivery**: Identified a strategy that could boost revenue by 7%, validated through data analysis.
-5. **Review**: Shared the dashboard with peers for feedback, refining it to improve functionality and design.
+## 🔧 Data Sources  
+- `transactions` → Contains product-wise and market-wise sales data.  
+- `customers` → Includes customer information.  
+- `date` → Contains order dates and related attributes.  
 
-## Key Achievements
-- Achieved a potential 7% revenue increase for the next quarter through the dashboard’s insights.
-- Enhanced my proficiency in Power BI and SQL, focusing on business intelligence applications.
-- Demonstrated the ability to deliver data-backed recommendations for sales improvement.
-- Gained practical experience in creating tools that align with organizational goals.
+---
 
-## Challenges Faced
-One challenge was managing incomplete data sets, which required advanced SQL techniques to fill gaps. Designing an intuitive dashboard layout was also difficult, but iterative testing helped achieve a balanced design. Learning to align technical outputs with business outcomes was a key takeaway.
+## ⚙️ Steps Performed  
 
-## Future Improvements
-Future plans include:
-- Incorporating predictive analytics to forecast sales performance.
-- Adding real-time data integration for up-to-date reporting.
-- Expanding the dashboard to include competitor analysis for a competitive edge.
+### 🧱 1. Data Extraction & Preparation (MySQL)
+- Created and used database: `sales`  
+- Checked dataset completeness and structure.  
+- Identified and filtered relevant transactions (e.g., by `market_code`).  
+- Joined **transactions** and **date** tables to analyze time-based trends.  
+- Calculated total **revenue** and **sales quantity** for each year.  
+- Cleaned currency inconsistencies (`USD`, `INR`, etc.) and standardized data.  
 
-## How to Explore
-- View the attached dashboard screenshot to see the visualizations in action.
-- Clone this repository to access the SQL scripts and Power BI file (note: sensitive data is blurred for privacy).
-- Feel free to fork and contribute suggestions—I’m open to collaborative enhancements!
+### 📊 2. Data Analysis (SQL Queries)
+- Total transaction counts and unique products by market.  
+- Year-wise and market-wise revenue aggregation.  
+- Top-performing customers and markets identification.  
+- Currency-based sales breakdown.  
 
-## Acknowledgments
-This project was a self-driven effort, inspired by my interest in business analytics. Thanks to online tutorials and communities that supported my growth in Power BI and SQL.
+### 🎨 3. Data Visualization (Power BI)
+- Imported cleaned SQL data into Power BI.  
+- Created measures and KPIs for **Revenue**, **Sales Quantity**, and **Top Customers/Markets**.  
+- Designed a modern, interactive dashboard displaying:  
+  - 💰 **Total Revenue & Sales Quantity**  
+  - 📈 **Revenue Trend by Year**  
+  - 🏙️ **Revenue & Sales by Market**  
+  - 🧍 **Top 5 Customers & Top 5 Products**
 
-## Contact
-For questions or collaboration, contact me at manjudr2018@gmail.com or connect on LinkedIn (linkedin.com/in/manjunathdarshanr/). I’m excited to discuss this project.
+---
 
-#DataAnalytics #PowerBI #SQL #PersonalProjects #BusinessIntelligence
+## 📊 Key Insights  
+- 🏆 **Delhi NCR** recorded the highest revenue, followed by **Mumbai** and **Ahmedabad**.  
+- 📈 Revenue showed consistent growth between **2018–2020**.  
+- 💡 The top 5 customers contributed **over 60% of total sales**.  
+- 🛒 Key products like **Prod040** and **Prod159** were major revenue drivers.  
+- 💹 Markets such as **Nagpur** and **Kochi** showed high sales volumes despite lower revenues — ideal for targeted marketing.  
+
+---
+
+## 🚀 Dashboard Preview  
+![Dashboard Screenshot](sales_insights_dashboard.png)
+
+---
+
+## 📂 Repository Contents  
+- **Data Analysis of data.sql** → SQL queries for data cleaning and aggregation.  
+- **Sales Insights Data Analytics Project.pdf** → Power BI dashboard visuals.  
+- **README.md** → Project documentation.  
+
+---
+
+## 💻 Tools & Technologies  
+- **MySQL** – Data querying, cleaning, and aggregation.  
+- **Power BI Desktop** – Data visualization and reporting.  
+- **Excel / CSV Files** – Raw data storage and structure.  
+
+---
+
+## 📈 Outcome  
+This project demonstrates how **SQL + Power BI** integration helps transform raw transactional data into **actionable business insights**.  
+It provides an executive-level overview of revenue performance and helps decision-makers identify profitable markets, high-value customers, and growth opportunities.
+
+---
+
+## 🔗 Connect  
+💼 [LinkedIn](https://www.linkedin.com/in/manjunathdarshanr)  
+📧 manjudr2018@gmail.com  
+
+---
+
+## 🏷️ Tags  
+`#SQL` `#PowerBI` `#DataAnalytics` `#BusinessIntelligence` `#DataVisualization` `#SalesInsights` `#Dashboard`
