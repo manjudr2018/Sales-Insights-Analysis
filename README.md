@@ -52,7 +52,7 @@ The main objective was to build a scalable data pipeline using **MySQL for data 
 ---
 
 ## 🚀 Dashboard Preview  
-![Dashboard Screenshot](sales_insights_dashboard.png)
+![Dashboard Screenshot](Dashboard20%Screenshot/sales_insights_dashboard.png)
 
 ---
 
