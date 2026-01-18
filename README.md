@@ -56,6 +56,10 @@ The main objective was to build a scalable data pipeline using **MySQL for data 
 
 ---
 
+Live Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiMmZiZWEwMTYtZWM2Mi00ZTg5LWJkYWMtNDljM2FhMmNhZGNjIiwidCI6IjliNmVhNDViLTBhYzMtNGZhMC05NTVkLTE5OGU2Y2ZhY2MyMSJ9
+
+---
+
 ## 📂 Repository Contents  
 - **Data Analysis of data.sql** → SQL queries for data cleaning and aggregation.  
 - **Sales Insights Data Analytics Project.pdf** → Power BI dashboard visuals.  
